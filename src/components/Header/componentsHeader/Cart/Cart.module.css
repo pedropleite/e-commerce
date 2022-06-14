@@ -1,0 +1,79 @@
+.containerCart{
+    display: flex;
+    gap: 0.7rem;
+    border: none;
+    align-items: center;
+    background-color: #4BB543;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    position: fixed;
+    left: 81.5%;
+    bottom: 2rem;
+    z-index: 1000;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.containerCart:hover{
+       background-color: #368730;
+}
+
+.containerCart span{
+color: white;
+font-weight: 700;
+}
+
+.containerCart input{
+height: 2rem;
+width: 2rem;
+}
+
+@media screen and (max-width: 1150px){
+.containerCart{
+left: 80%;
+}
+}
+
+@media screen and (max-width: 1050px) {
+    .containerCart {
+        left: 76%;
+    }
+}  
+
+@media screen and (max-width: 880px) {
+    .containerCart {
+        left: 72%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .containerCart {
+        left: 68%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .containerCart {
+        left: 64%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .containerCart {
+        left: 58%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .containerCart {
+        left: 53%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .containerCart {
+        left: 48%;
+    }
+}

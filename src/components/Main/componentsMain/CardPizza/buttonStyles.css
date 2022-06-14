@@ -1,0 +1,7 @@
+.checked {
+    background-color: rgba(232, 220, 48);
+}
+
+.notPress {
+    background-color: transparent;
+}

@@ -1,0 +1,127 @@
+.mainCart{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.throughCheckout{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5.5rem;
+}
+
+.throughCheckout span:nth-of-type(1) {
+    font-weight: 500;
+}
+
+.containerCheckout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.showCheckout1,
+.showCheckout2,
+.showCheckout3{
+    width:3rem;
+    height: 3rem;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    font-weight: 900;
+}
+
+.showCheckout2,
+.showCheckout3{
+    background-color: white;
+    color: black;
+    border: 0.2px solid red;
+}
+
+.containerBTN{
+    margin: 4rem 0;
+    margin-bottom: 8rem;
+    box-sizing: border-box;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerBTNCoupon input, 
+.containerBTNCoupon button,
+.containerBTNCheckout button{
+height: 3rem;
+box-sizing: border-box;
+}
+
+.containerBTNCoupon input{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.containerBTNCoupon button{
+    border: none;
+    padding: 0 2rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #333e48;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.containerBTNCoupon button:hover{
+    background-color: #262c32;
+}
+
+.containerBTNCheckout{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.containerBTNCheckout button{
+    padding: 0 2rem;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(192, 10, 39);
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.containerBTNCheckout button:hover{
+    background-color: rgb(139, 4, 26)
+}
+
+@media(max-width:850px){
+    .containerBTN{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .containerBTNCheckout button{
+        width: 70%;
+    }
+}
+
+@media(max-width:600px){
+    .throughCheckout{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

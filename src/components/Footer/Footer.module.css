@@ -1,0 +1,91 @@
+.footer{
+    box-sizing: border-box;
+    background-color: #2c2c2c;
+    padding: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    position: relative;
+}
+
+.inputsImages {
+    display: flex;
+    gap: 4rem;
+}
+
+.inputsImages button{
+    background-color: transparent;
+    border: none;
+    border-radius:50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputsImages button:hover {
+    background-color: rgba(76, 76, 76, 0.1);
+}
+
+.inputsImages img{
+    height: 1.9rem;
+    padding: 0.7rem;
+}
+
+.logo{
+    color: white;
+    font-size: 3.1rem;
+    font-weight: 900;
+    font-family: thirsty;
+    position: relative;
+    transform: rotate(-7deg);
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    text-align: center;
+    color: rgb(189, 189, 189);
+    font-size: 0.9rem;
+}
+
+.information {
+    display: flex;
+    gap: 2rem;
+}
+
+.information span {
+    padding: 1rem;
+    border-right: 1px solid rgba(255, 0, 0, 0.3) ;
+    border-left:1px solid rgba(255, 0, 0, 0.3) ;
+}
+
+.rights{
+    color: rgb(92, 92, 92);
+    margin-bottom: 1rem;
+}
+
+.btnMap {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(192, 10, 39);
+    border: none;
+    padding: 1rem 3.3rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.btnMap img{
+    height: 2rem;
+}

@@ -1,0 +1,9 @@
+.banner{
+    width: 100%;
+    margin-bottom: 6rem;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+}

@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 45%;
+}
+
+.title {
+    border-bottom: 2px solid red;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.subTotal,
+.total{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.subTotal span:nth-of-type(2),
+.total span:nth-of-type(2){
+   font-size: 1.3rem;
+}
+
+.subTotal span{
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.total span{
+    font-weight: 700;
+}

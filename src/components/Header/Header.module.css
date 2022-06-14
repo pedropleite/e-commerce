@@ -1,0 +1,157 @@
+.container{
+    background: rgb(192, 10, 39);
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    gap: 4rem;
+}
+
+.navBar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    font-size: 3.4rem;
+    font-weight: 900;
+    font-family: thirsty;
+    position: relative;
+    transform: rotate(-7deg);
+    margin-right: 1rem;
+}
+
+.span{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.span:hover{
+    border-bottom: 2px solid gold;
+    padding-bottom: 3px;
+}
+
+.containerOrder{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    align-items: center;
+    
+}
+
+.containerOrder span:nth-child(1){
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: rgba(255, 215, 0, 0.8);
+}
+
+.containerOrder span:nth-child(2) {
+    font-size: 1.9rem;
+    word-spacing: -1px;
+}
+
+.containerExtra{
+    display: flex;
+    gap: 1rem;
+    margin-right: 2rem;
+}
+
+.notActive{
+    display: none;
+}
+
+@media (max-width:1050px){
+
+.notActive{
+    display: initial;
+}
+
+.navBar{
+    flex-direction: column;
+}
+
+    .activeNavBar {
+        position: absolute;
+        z-index: 1001;
+        left: 0;
+        top: 0;
+        width: 50%;
+        height: 70vh;
+        background-color: rgba(0, 0, 0, 0.9);
+        padding: 2rem;
+        border-radius: 10px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        box-shadow: 10px 0 69px 0px rgba(0, 0, 0, 0.2);
+    }
+    
+    .notActiveNavBar {
+        display: none;
+        width: 0px;
+    }
+
+    .hamburguer {
+        position: absolute;
+        left: 90%;
+        width: 30px;
+        height: 6px;
+        background-color: black;
+        box-shadow: 0 2px 5px rgba(255, 215, 0, 0.8);
+        transition: 0.5s;
+        position: absolute;
+        cursor: pointer;
+    }
+        
+    .hamburguer::before {
+        top: -12px;
+        content: '';
+        position: absolute;
+        width: 37px;
+        height: 6px;
+        background-color: black;
+        box-shadow: 0 2px 5px rgba(255, 215, 0, 0.8);
+        transition: 0.5s;
+    }
+        
+    .hamburguer::after {
+        top: 12px;
+        content: '';
+        position: absolute;
+        width: 37px;
+        height: 6px;
+        background-color: black;
+        box-shadow: 0 2px 5px rgba(255, 215, 0, 0.8);
+        transition: 0.5s;
+    }
+        
+    .active .hamburguer {
+        background: transparent;
+        box-shadow: 0 2px 5px transparent;
+    }
+        
+    .active .hamburguer:after {
+        top: 0;
+        background-color: white;
+        transform: rotate(225deg);
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    }
+        
+    .active .hamburguer:before {
+        top: 0;
+        background-color: white;
+        transform: rotate(135deg);
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    }
+}
+
+@font-face {
+    font-family: thirsty;
+    src: url('../../fonts/ThirstyScriptExtraBoldDemo.otf');
+}

@@ -1,0 +1,86 @@
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 70vh;
+    margin-top: 1rem;
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    padding: 2.5rem;
+    grid-template-areas:
+        "containerOne containerOne containerTwo containerThree"
+        "containerOne containerOne containerTwo containerThree";
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.containerOne {
+    grid-area: containerOne;
+    transition: all .6s ease;
+    cursor: pointer;
+}
+
+.containerOne:hover {
+    transform: scale(1.08);
+}
+
+.containerTwo {
+    grid-area: containerTwo;
+    transition: all .6s ease;
+    cursor: pointer;
+}
+
+.containerTwo:hover, 
+.containerThree:hover {
+    transform: scale(1.1);
+}
+
+.containerThree {
+    grid-area: containerThree;
+    transition: all .6s ease;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+    .container {
+        height: 0%;
+        justify-items: center;
+        grid-auto-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            "containerOne containerOne containerOne container One"
+            "containerTwo containerTwo containerThree containerThree"
+    }
+
+    .containerOne,
+    .containerTwo,
+    .containerThree {
+         width: 60%;
+    }
+
+        .container img {
+            width: 100%;
+            height: 100%;
+            object-fit:fill;
+        }
+}
+
+@media screen and (max-width: 650px) {
+    .container {
+        height: 0%;
+            grid-auto-rows: 1fr;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-areas:
+                    "containerOne containerOne" 
+                    "containerTwo containerTwo"
+                    "containerThree containerThree";
+    }
+}

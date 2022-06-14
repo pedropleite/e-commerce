@@ -1,0 +1,148 @@
+.container{
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.aboutProduct{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8rem;
+}
+
+.quantityPrice{
+    display: flex;
+    gap: 10rem;
+}
+
+.containerCart{
+    width: 100%;
+    display: flex;
+    padding: 0 6rem;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-bottom: 3rem;
+}
+
+.containerCart img{
+    width: 25%;
+    min-width: 120px;
+}
+
+.containerProduct{
+    display: flex;
+    gap: 1rem;
+}
+
+.containerProduct button{
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.containerPrice{
+    display: flex; 
+    padding: 0 1.4rem;
+    margin-top: 1rem;
+    gap: 9.5rem;
+}
+
+.containerPrice span{
+    font-size: 1.2rem;
+}
+
+.containerAdd{
+    display: flex;
+
+}
+
+.containerAdd input{
+    height: 2.5rem;
+    width: 5rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.containerAdd input::-webkit-outer-spin-button,
+.containerAdd input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.description span:nth-of-type(1){
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.description span:nth-of-type(2) {
+   color: rgba(0, 0, 0, 0.5);
+}
+
+.description span:nth-of-type(3) {
+    font-weight: 500;
+    background-color: rgb(230, 63, 63);
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:1150px){
+    .containerProduct{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:650px) {
+   .quantityPrice{
+    gap: 5rem;
+   }
+
+   .containerPrice{
+    gap: 4.5rem;
+   }
+}
+
+@media (max-width:520px) {
+    .quantityPrice {
+        gap: 3rem;
+    }
+
+    .containerPrice {
+        gap: 2.5rem;
+    }
+}
+
+/* @media (max-width:490px) {
+.containerCart{
+    align-items: center;
+}
+
+    .quantityPrice {
+        gap: 0.5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerPrice {
+        gap: 0.5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+} */

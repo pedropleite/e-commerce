@@ -3,6 +3,7 @@ import Options from './componentsMain/Options/Options';
 import MenuPizza from './componentsMain/MenuPizza/MenuPizza';
 import QualitysPizzaria from './componentsMain/QualitysPizzaria/QualitysPizzaria';
 import classes from './Main.module.css';
+import React from 'react';
 
 const Main = (props) => {
     return (
@@ -18,4 +19,4 @@ const Main = (props) => {
     );
 };
 
-export default Main;
+export default React.memo(Main);

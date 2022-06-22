@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# E-commerce Pizzaria 🍕
+Aplicação criada para simular um e-commerce de uma pizzaria com features como um "cardápio" dinâmico e um carrinho.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img width ="100%" src="https://github.com/pedropleite/e-commerce/blob/master/READMEGif.gif">
+<br>
 
-## Available Scripts
+# Sobre esse projeto 🔍
+<p>Essa aplicação foi criada com o intuito educativo para estudo e aplicação dos conhecimentos em React. Simulei uma espécie de e-commerce, onde teriamos sliders de promoções, produtos e afins. Além disso, possui um sistema de carrinho para a "finalização" da compra com informações como quantidade de produtos, preço individual, total. </p>
+<br> 
 
-In the project directory, you can run:
+# Tecnologias utilizadas 💻
+- <a href="https://www.javascript.com/">JavaScript</a>
+- <a href="https://pt-br.reactjs.org/">ReactJS</a>
+- <a href="https://swiperjs.com/">Swiper React</a>
+- <a href="https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/">CSS Modules</a>
+<br>
 
-### `npm start`
+# Features 🕹
+- [x] Permite a exposição de produtos personalizados em slider para a melhor visualização do cliente.
+- [x] Carrinho com interações de acordo com a quantidade de produtos escolhidas, mostrando ainda no carrinho um resumo de qual produto foi e uma imagem para melhor visualização.
+<br><br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Status do projeto 📌
+- Finalizado 🛠
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##
+ <br><div align="center"> 
+   <a href="https://instagram.com/pedropml" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+   <a href = "mailto:pedroaksson@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+   <a href="https://www.linkedin.com/in/pedro-paulo-361143226/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+ </div>
